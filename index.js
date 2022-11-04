@@ -5,9 +5,7 @@ app.use(express.json());
 
 const PORT =process.env.PORT||8000;
 
-app.get("/", (req, res) =>
-  res.send(`Server Running`)
-);
+
 
 // Local variable to store data
 
